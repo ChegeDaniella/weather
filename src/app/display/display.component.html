@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+<body>
+    <h2>{{weather.city}}</h2>
+    <img [src] = "weather.icon" style="float: left;"/>
+    <p>
+        Conditions: {{weather.conditions}} <br>
+        Temperature: {{weather.temperature}} °F <br>
+    </p>
+</body>
+</html>
